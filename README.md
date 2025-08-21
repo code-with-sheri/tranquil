@@ -1,3 +1,2 @@
 # tranquil
-minimlistic note taking app
-i dont know why things are not being updated in github.
+Minimlistic note-taking app stripped to its bare essentials.

@@ -70,10 +70,10 @@
     <br>
 
     <div class="btns">
-        <a href="new-note"><button class="btn" onclick="open_new_note()"><i class="fa-solid fa-plus"></i> New Note</button></a>
-        <a href="saved-notes"><button class="btn" onclick="open_new_note()">Saved Notes</button></a>
-        <a href="settings"><button class="btn" onclick="open_new_note()">Settings</button></a>
-        <a href="howtouse"><button class="btn" onclick="open_new_note()">How to use?</button></a>
+        <a href="new-note,php"><button class="btn" onclick="open_new_note()"><i class="fa-solid fa-plus"></i> New Note</button></a>
+        <a href="saved-notes.php"><button class="btn" onclick="open_new_note()">Saved Notes</button></a>
+        <a href="settings.php"><button class="btn" onclick="open_new_note()">Settings</button></a>
+        <a href="howtouse.php"><button class="btn" onclick="open_new_note()">How to use?</button></a>
     </div>
 
     <script src="app.js">

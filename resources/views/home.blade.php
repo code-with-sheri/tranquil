@@ -7,64 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"  rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-            font-family: Arial;
-        }
-        p{
-            letter-spacing: -1px;
-        }
-        .logo{
-            cursor: pointer;
-            color: #181818;
-            font-size: 100px;
-            letter-spacing: -5px;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            transition: transform 0.4s;
-            transform-origin: bottom;
-        }
-        .logo:hover{
-            transform: scaleY(1.1);
-        }
-        .btns{
-            gap: 20px;
-            outline: none;
-            text-align: center;
-        }
-        .btn{
-            cursor: pointer;
-            padding: 10px 12px;
-            border: none;
-            background-color: #181818;
-            color: white;
-            font-size: 11px;
-            border-radius: 50px;
-            transition: 0.25s;
-        }
-        .btn:hover{
-            background-color: black;
-        }
-        .dot {
-            font-family: monospace;
-            margin-left: -15px; 
-        }
-        #writing-part {
-            display: none;
-            opacity: 0; 
-            transition: opacity 0.5s ease;
-        }
-    </style>
+    
+    @vite('resources/css/home.css')
 </head>
 <body>
-    <div style="height: 30vh;"></div>
+    
+    <div style="height: 100vh; width: 100vw; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <div class="logo">
+            Tranquil<span class="dot">.</span>
+        </div>
 
-    <div>
-        <h1 class="logo">Tranquil<span class="dot">.</span></h1>
+    <div class="btns" style="margin-top: 20px;">
+        <a href="./new-note.blade.php" class="btn">New Note</a>
+        <a href="./howtouse.blade.php" class="btn">How to Use</a>
+        <a href="./saved-notes.blade.php" class="btn">Saved Notes</a>
+        <a href="./settings.blade.php" class="btn">Settings</a>
     </div>
 
 </body>

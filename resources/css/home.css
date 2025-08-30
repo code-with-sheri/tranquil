@@ -7,8 +7,9 @@
             letter-spacing: -1px;
         }
         .logo{
+            font-weight: bolder;
             cursor: pointer;
-            color: #181818;
+            color: #242424;
             font-size: 100px;
             letter-spacing: -5px;
             align-items: center;
@@ -18,18 +19,22 @@
             transform-origin: bottom;
         }
         .logo:hover{
-            transform: scaleY(1.1);
+            transform: scaleY(1.15);
+            color: black;
         }
-        .btns{
-            gap: 20px;
+        .btns-section{
+            margin-top: 15px;
+            display: flex;
+            gap: 12px;
             outline: none;
             text-align: center;
         }
         .btn{
+            text-decoration: none;
             cursor: pointer;
             padding: 10px 12px;
             border: none;
-            background-color: #181818;
+            background-color: #242424;
             color: white;
             font-size: 11px;
             border-radius: 50px;

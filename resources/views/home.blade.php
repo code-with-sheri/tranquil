@@ -21,9 +21,9 @@
 
     <div class="btns-section">
         <a href="./new-note.blade.php" class="btn">New Note <i class="fa-solid fa-plus"></i></a>
-        <a href="./howtouse.blade.php" class="btn">How to Use <i class="fa-solid fa-question"></i></a>
         <a href="./saved-notes.blade.php" class="btn">Saved Notes <i class="fa-solid fa-bookmark"></i></a>
         <a href="./settings.blade.php" class="btn">Settings <i class="fa-solid fa-gear"></i></a>
+        <a href="./howtouse.blade.php" class="btn">How to Use <i class="fa-solid fa-question"></i></a>
     </div>
 
 </body>

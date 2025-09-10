@@ -9,7 +9,7 @@
         .logo{
             font-weight: bolder;
             cursor: pointer;
-            color: #242424;
+            color:  black;
             font-size: 100px;
             letter-spacing: -5px;
             align-items: center;
@@ -20,7 +20,6 @@
         }
         .logo:hover{
             transform: scaleY(1.15);
-            color: black;
         }
         .btns-section{
             margin-top: 15px;
@@ -34,7 +33,7 @@
             cursor: pointer;
             padding: 10px 12px;
             border: none;
-            background-color: #242424;
+            background-color: black;
             color: white;
             font-size: 11px;
             border-radius: 50px;

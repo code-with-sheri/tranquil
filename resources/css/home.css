@@ -3,13 +3,29 @@
     margin: 0;
     font-family: Arial;
 }
+
 p{
     letter-spacing: -1px;
 }
+
+body{
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+.main-wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo{
     font-weight: bolder;
     cursor: pointer;
-    color:  black;
+    color: black;
     font-size: 100px;
     letter-spacing: -5px;
     align-items: center;
@@ -18,9 +34,11 @@ p{
     transition: transform 0.4s;
     transform-origin: bottom;
 }
+
 .logo:hover{
     transform: scaleY(1.15);
 }
+
 .btns-section{
     margin-top: 15px;
     display: flex;  
@@ -28,6 +46,7 @@ p{
     outline: none;
     text-align: center;
 }
+
 .btn{
     text-decoration: none;
     cursor: pointer;
@@ -39,14 +58,17 @@ p{
     border-radius: 50px;
     transition: 0.25s;
 }
+
 .btn:hover{
     background-color: black;
 }
-.dot {
+
+.dot{
     font-family: monospace; 
-    margin-left: -15px; 
+    margin-left: -12px; 
 }
-#writing-part {
+
+#writing-part{
     display: none;
     opacity: 0; 
     transition: opacity 0.5s ease;

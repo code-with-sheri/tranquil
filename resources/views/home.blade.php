@@ -13,18 +13,20 @@
 </head>
 <body>
     
-    <div style="height: 100vh; width: 100vw; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div class="main-wrapper">
 
-    <div class="logo">
-        Tranquil<span class="dot">.</span>
+        <div class="logo">
+            Tranquil<span class="dot">.</span>
+        </div>
+
+        <div class="btns-section">
+            <a href="{{ url('/new-note') }}" class="btn">New Note <i class="fa-solid fa-plus"></i></a>
+            <a href="{{ url('/saved-notes') }}" class="btn">Saved Notes <i class="fa-solid fa-bookmark"></i></a>
+            <a href="{{ url('/settings') }}" class="btn">Settings <i class="fa-solid fa-gear"></i></a>
+            <a href="{{ url('/how-to-use') }}" class="btn">How to Use <i class="fa-solid fa-question"></i></a>
+        </div>
+
     </div>
-
-<div class="btns-section">
-    <a href="{{ url('/new-note') }}" class="btn">New Note <i class="fa-solid fa-plus"></i></a>
-    <a href="{{ url('/saved-notes') }}" class="btn">Saved Notes <i class="fa-solid fa-bookmark"></i></a>
-    <a href="{{ url('/settings') }}" class="btn">Settings <i class="fa-solid fa-gear"></i></a>
-    <a href="{{ url('/how-to-use') }}" class="btn">How to Use <i class="fa-solid fa-question"></i></a>
-</div>
 
 </body>
 </html>

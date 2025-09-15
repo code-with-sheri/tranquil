@@ -12,7 +12,6 @@
     @vite(['resources/css/home.css'])
 </head>
 <body>
-    
     <div class="main-wrapper">
 
         <div class="logo">

@@ -63,7 +63,7 @@ body{
     opacity: 0; 
     transition: opacity 0.5s ease;
 }
-<!--authentication-buttons-styling-->
+
 .auth-btns{
     gap: 10px;
 }
